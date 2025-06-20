@@ -2,9 +2,6 @@
 
 # db_handler.py (update reward_score only)
 
-import sys
-import pysqlite3
-sys.modules["sqlite3"] = pysqlite3
 
 
 from sentence_transformers import SentenceTransformer

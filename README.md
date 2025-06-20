@@ -47,7 +47,7 @@
 - **Python 3.11**
 - **Streamlit** UI
 - **Playwright** for scraping & screenshots
-- **Gemini 2.5** (or OpenAI GPT‑4o fallback)
+- **Gemini 2.5** 
 - **ChromaDB** vector store
 - **Sentence-Transformers** (`all‑MiniLM‑L6‑v2`)
 - **gTTS** for text-to-speech

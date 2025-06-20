@@ -7,7 +7,7 @@ import streamlit as st
 # --------------------------------------------------------------------
 # Initialise Gemini client once, re-use across calls
 # --------------------------------------------------------------------
-GEMINI_API_KEY = st.secrets["API"] # or hard-code for quick tests
+GEMINI_API_KEY = os.getenv("API_KEY") # or hard-code for quick tests
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # --------------------------------------------------------------------
